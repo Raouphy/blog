@@ -1,6 +1,7 @@
 <% @posts.each do |post| %>
 
 <h2><%= post.title %></h2>
+<%= link_to "voir mon post", post_path(post) %>
 
 
 

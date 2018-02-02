@@ -8,11 +8,11 @@ class PostsController < ApplicationController
   end
 
   def new
-    @post =Post.new
+    @post = Post.new
   end
 
   def create
-    @post = Post.new
+    @post = Post.new(params_post)
     if @post.save
       redirect_to root_path
     else
