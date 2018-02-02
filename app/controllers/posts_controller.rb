@@ -31,6 +31,7 @@ class PostsController < ApplicationController
     else
       render 'edit'
     end
+  end
 
     def destroy
 
@@ -40,9 +41,9 @@ class PostsController < ApplicationController
 
     end
 
-  end
 
-  end
+
+
 
 
 
